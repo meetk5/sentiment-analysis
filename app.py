@@ -11,8 +11,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 # Download NLTK resources
-nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('stopwords', quiet = True)
+nltk.download('punkt', quiet = True)
 
 stop_words = set(stopwords.words('english'))
 
